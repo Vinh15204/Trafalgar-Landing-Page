@@ -170,4 +170,36 @@ body {
   transform: translateX(-50%);
 }
 
+.feature-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.feature-item + .feature-item {
+  margin-top: 230px;
+}
+.feature-desc {
+  margin-bottom: 37px;
+}
+.feature-content {
+  max-width: 420px;
+  width: 100%;
+}
+.feature-image {
+  transform: translate(-56px);
+}
+.feature-item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.feature-item:nth-child(even) .feature-image {
+  transform: translate(28px);
+}
+.feature-item:nth-child(even) .feature-content {
+  padding-left: 90px;
+  max-width: 510px;
+}
+.feature-item:nth-child(even) .feature-heading {
+  max-width: 256px;
+}
+
 /*# sourceMappingURL=app.css.map */
