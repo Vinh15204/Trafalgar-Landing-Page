@@ -265,6 +265,7 @@ body {
 
 .article {
   margin-bottom: 200px;
+  background: url(../images/bg2.png) no-repeat center right;
 }
 .article-heading {
   margin-bottom: 80px;
@@ -309,6 +310,50 @@ body {
   align-items: center;
   color: #458FF6;
   gap: 0 10px;
+}
+
+.footer {
+  padding: 118px 0 113px;
+  background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+}
+.footer-main {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+  grid-gap: 0 34px;
+  color: white;
+}
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 17px;
+}
+.footer-desc {
+  margin-bottom: 31px;
+  font-size: 18px;
+  line-height: 156%;
+}
+.footer-heading {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.footer-links {
+  list-style: none;
+}
+.footer-item {
+  margin-bottom: 15px;
+}
+.footer-link {
+  color: inherit;
+  font-size: 18px;
+}
+
+.dots {
+  width: 10px;
+  height: 10px;
+  background-color: #97c3f9;
+  border-radius: 100rem;
+  box-shadow: 0px 0px #97c3f9, 0px 20px #97c3f9, 0px 40px #97c3f9, 0px 60px #97c3f9, 0px 80px #97c3f9, 20px 0px #97c3f9, 20px 20px #97c3f9, 20px 40px #97c3f9, 20px 60px #97c3f9, 20px 80px #97c3f9, 40px 0px #97c3f9, 40px 20px #97c3f9, 40px 40px #97c3f9, 40px 60px #97c3f9, 40px 80px #97c3f9, 60px 0px #97c3f9, 60px 20px #97c3f9, 60px 40px #97c3f9, 60px 60px #97c3f9, 60px 80px #97c3f9, 80px 0px #97c3f9, 80px 20px #97c3f9, 80px 40px #97c3f9, 80px 60px #97c3f9, 80px 80px #97c3f9;
+  margin-bottom: 200px;
+  margin-left: 100px;
 }
 
 /*# sourceMappingURL=app.css.map */
